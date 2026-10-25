@@ -1,0 +1,38 @@
+{
+  "experiment": "Experiment 2",
+  "chain": "ARC-TESTNET",
+  "usdc_token": "0x3600000000000000000000000000000000000000",
+  "agent_wallet": null,
+  "recipients": {
+    "alice_vendor": {
+      "label": "Alice — vendor",
+      "address": null
+    },
+    "bob_contractor": {
+      "label": "Bob — contractor",
+      "address": null
+    },
+    "refund_account": {
+      "label": "Refund account",
+      "address": null
+    }
+  },
+  "max_transfer_usdc": 5,
+  "max_steps": 12,
+  "web_port": 8787,
+  "temperature": 0,
+  "seed": 0,
+  "mainnet_chain": "BASE",
+  "mainnet_agent_wallet": null,
+  "mainnet_usdc_token": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "mainnet_recipients": {
+    "A": {
+      "label": "Recipient A (operator-owned)",
+      "address": null
+    },
+    "B": {
+      "label": "Recipient B (operator-owned)",
+      "address": null
+    }
+  }
+}
